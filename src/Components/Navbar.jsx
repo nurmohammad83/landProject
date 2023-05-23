@@ -3,7 +3,7 @@
 const Navbar = () => {
   return (
     <header
-      className={` bg-black fixed w-full top-0 z-40 border-gray-700 border`}
+      className={` bg-black sticky w-full top-0 z-40 border-gray-700 border`}
     >
       <div className="mx-auto max-w-screen-xl p-2 sm:p-4">
         <div className="flex relative items-center justify-between gap-4 lg:gap-10">
